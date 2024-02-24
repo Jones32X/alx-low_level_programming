@@ -6,13 +6,13 @@
  * Return: 1 Success, -1 error
  */
 
-int factorial(int i)
+int factorial(int n)
 {
-	if (i < 0)
+	if (n < 0)
 	{
 		return (-1);
 	}
-	if (i === 0)
+	if (n === 0)
 	{
 		return (1);
 	}
