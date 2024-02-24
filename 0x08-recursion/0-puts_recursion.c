@@ -6,7 +6,7 @@
  * Return: 0 all thre time
  */
 
-int main(void)
+void _puts_recursion(char *s)
 {
 	if (*s == 0)
 	{
