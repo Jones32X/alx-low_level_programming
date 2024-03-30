@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * add - add integers
+ * sub - subtract integers
  * @x: first number
  * @y: second number
- * Return: total
+ * Return: subtraction
  */
 
-int add(int x, int y)
+int sub(int x, int y)
 {
-	return (x + y);
+	return (x - y);
 }
