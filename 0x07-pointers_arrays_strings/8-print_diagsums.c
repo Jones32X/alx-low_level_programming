@@ -12,17 +12,17 @@ void print_diagsums(int *a, int size)
 {
 	int o;
 
-	unsigned int SUM, 1SUM;
+	unsigned int SUM, SUM1;
 
 	SUM = 0;
-	1SUM = 0;
+	SUM1 = 0;
 	o = 0;
 
 	for (; o < size; o++)
 	{
 		SUM += a[(size * o) + o];
-		1SUM += a[(size * (o + 1)) - (o + 1)];
+		SUM1 += a[(size * (o + 1)) - (o + 1)];
 	}
 
-	printf("%d, %d\n", SUM, 1SUM);
+	printf("%d, %d\n", SUM, SUM1);
 }
